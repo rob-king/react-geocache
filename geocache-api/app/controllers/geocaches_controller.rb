@@ -1,0 +1,2 @@
+class GeocachesController < ApplicationController
+end

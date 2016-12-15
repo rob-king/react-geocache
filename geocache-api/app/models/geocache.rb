@@ -1,0 +1,2 @@
+class Geocache < ApplicationRecord
+end
