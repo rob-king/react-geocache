@@ -21,7 +21,7 @@ class GeocachesController < ApplicationController
   def create
     @geocache =  Geocache.new(geocache_params)
     if @geocache.save
-      render json: @geocache
+      render json: Geocache.all
     else
       render json: @geocache.errors, status: :unprocessable_entity
     end
